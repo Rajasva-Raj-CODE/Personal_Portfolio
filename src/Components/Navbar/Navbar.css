@@ -1,0 +1,48 @@
+.logo{
+    position: relative;
+}
+
+.logo p{
+    font-size: 45px;
+    font-weight: 800;
+}
+.logo img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    width: 54%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px 170px;
+
+}
+
+.nav-menu{
+ display: flex;
+ align-items: center;
+ list-style-type: none;
+ gap: 60px;
+ font-size: 20px;
+}
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+.nav-menu img{
+    display: flex;
+    margin: auto;
+
+}
+.anchor-link{
+    text-decoration: none;
+    color: white;
+}
+
